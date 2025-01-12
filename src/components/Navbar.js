@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/Malinda_Zoo/">
           🐾 Zoo World
         </Link>
         <button
@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/">
+              <Link className="nav-link text-light" to="/Malinda_Zoo/">
                 Home
               </Link>
             </li>
