@@ -33,7 +33,7 @@ const Tickets = () => {
         {/* Event 1 */}
         <Col md={4} className="mb-4 featuredImages2">
           <Card>
-            <Card.Img
+            <img
               variant="top"
               src={process.env.PUBLIC_URL + "/images/animalFeed.jpg"}
               alt="Animal Feeding"
@@ -54,7 +54,7 @@ const Tickets = () => {
         {/* Event 2 */}
         <Col md={4} className="mb-4 featuredImages2">
           <Card>
-            <Card.Img
+            <img
               variant="top"
               src={process.env.PUBLIC_URL + "/images/wildLifeTalk.jpg"}
               alt="Wildlife Talk"
@@ -75,7 +75,7 @@ const Tickets = () => {
         {/* Event 3 */}
         <Col md={4} className="mb-4 featuredImages2">
           <Card>
-            <Card.Img
+            <img
               variant="top"
               src={process.env.PUBLIC_URL + "/images/nightSafari.jpg"}
               alt="Night Safari"
