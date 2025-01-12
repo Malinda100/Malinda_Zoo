@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Malinda_Zoo/static/css/main.b0b0a3cc.css",
-    "main.js": "/Malinda_Zoo/static/js/main.7096e381.js",
+    "main.js": "/Malinda_Zoo/static/js/main.3f4ad6a5.js",
     "static/js/488.9f54475f.chunk.js": "/Malinda_Zoo/static/js/488.9f54475f.chunk.js",
     "index.html": "/Malinda_Zoo/index.html",
     "main.b0b0a3cc.css.map": "/Malinda_Zoo/static/css/main.b0b0a3cc.css.map",
-    "main.7096e381.js.map": "/Malinda_Zoo/static/js/main.7096e381.js.map",
+    "main.3f4ad6a5.js.map": "/Malinda_Zoo/static/js/main.3f4ad6a5.js.map",
     "488.9f54475f.chunk.js.map": "/Malinda_Zoo/static/js/488.9f54475f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0b0a3cc.css",
-    "static/js/main.7096e381.js"
+    "static/js/main.3f4ad6a5.js"
   ]
 }
