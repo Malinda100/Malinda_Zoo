@@ -27,73 +27,84 @@ const Tickets = () => {
 
   return (
     <div className="container py-5">
-        <Container fluid className="my-5">
-      <h1 className="text-center mb-4">Upcoming Zoo Events</h1>
-      <Row>
-        {/* Event 1 */}
-        <Col md={4} className="mb-4 featuredImages2">
-          <Card>
-            <img
-              variant="top"
-              src={process.env.PUBLIC_URL + "/images/animalFeed.jpg"}
-              alt="Animal Feeding"
-            />
-            <Card.Body>
-              <Card.Title>Animal Feeding Time</Card.Title>
-              <Card.Text>
-                Join us for an exciting animal feeding session! Watch our lions,
-                tigers, and other majestic animals get fed by our zookeepers.
-              </Card.Text>
-              <Button variant="primary" href="/events/feeding">
-                Learn More
-              </Button>
-            </Card.Body>
-          </Card>
-        </Col>
+     
 
-        {/* Event 2 */}
-        <Col md={4} className="mb-4 featuredImages2">
-          <Card>
-            <img
-              variant="top"
-              src={process.env.PUBLIC_URL + "/images/wildLifeTalk.jpg"}
-              alt="Wildlife Talk"
-            />
-            <Card.Body>
-              <Card.Title>Wildlife Conservation Talk</Card.Title>
-              <Card.Text>
-                Attend a fascinating talk on wildlife conservation and learn how
-                you can contribute to preserving endangered species.
-              </Card.Text>
-              <Button variant="primary" href="/events/conservation">
-                Learn More
-              </Button>
-            </Card.Body>
-          </Card>
-        </Col>
+  <div className="text-center mb-4">
+    <h1>Upcoming Zoo Events</h1>
+    <p className="lead">
+      Join us for exciting events and activities at the zoo! From animal feeding to wildlife conservation talks, there's something for everyone.
+    </p>
+  </div>
 
-        {/* Event 3 */}
-        <Col md={4} className="mb-4 featuredImages2">
-          <Card>
-            <img
-              variant="top"
-              src={process.env.PUBLIC_URL + "/images/nightSafari.jpg"}
-              alt="Night Safari"
-            />
-            <Card.Body>
-              <Card.Title>Night Safari Adventure</Card.Title>
-              <Card.Text>
-                Experience the thrill of a night safari and witness nocturnal
-                creatures in their natural habitat ensuring the safety.
-              </Card.Text>
-              <Button variant="primary" href="/events/night-safari">
-                Learn More
-              </Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+  {/* Events Section */}
+  <div className="my-5">
+    <h2>Featured Events</h2>
+    <p>
+      Our zoo offers a variety of exciting events throughout the year. Here's a sneak peek at some of the upcoming events you won't want to miss!
+    </p>
+    <div className="row">
+      {/* Event 1 */}
+      <div className="col-md-4 mb-4">
+        <div className="card featuredImages2">
+          <img
+            src={process.env.PUBLIC_URL + "/images/animalFeed.jpg"}
+            className="card-img-top"
+            alt="Animal Feeding"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Animal Feeding Time</h5>
+            <p className="card-text">
+              Join us for an exciting animal feeding session! Watch our lions, tigers, and other majestic animals get fed by our zookeepers.
+            </p>
+            <a href="/events/feeding" className="btn btn-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Event 2 */}
+      <div className="col-md-4 mb-4">
+        <div className="card featuredImages2">
+          <img
+            src={process.env.PUBLIC_URL + "/images/wildLifeTalk.jpg"}
+            className="card-img-top"
+            alt="Wildlife Talk"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Wildlife Conservation Talk</h5>
+            <p className="card-text">
+              Attend a fascinating talk on wildlife conservation and learn how you can contribute to preserving endangered species.
+            </p>
+            <a href="/events/conservation" className="btn btn-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Event 3 */}
+      <div className="col-md-4 mb-4">
+        <div className="card featuredImages2">
+          <img
+            src={process.env.PUBLIC_URL + "/images/nightSafari.jpg"}
+            className="card-img-top"
+            alt="Night Safari"
+          />
+          <div className="card-body">
+            <h5 className="card-title">Night Safari Adventure</h5>
+            <p className="card-text">
+              Experience the thrill of a night safari and witness nocturnal creatures in their natural habitat ensuring the safety.
+            </p>
+            <a href="/events/night-safari" className="btn btn-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+     
       <h1>Purchase Tickets</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
