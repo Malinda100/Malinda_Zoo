@@ -28,22 +28,22 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/about">
+              <Link className="nav-link text-light" to="/Malinda_Zoo/about">
                 About Zoo
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/animals">
+              <Link className="nav-link text-light" to="/Malinda_Zoo/animals">
                 Our Animals
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/tickets">
+              <Link className="nav-link text-light" to="/Malinda_Zoo/tickets">
                 Events & Tickets
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/contact">
+              <Link className="nav-link text-light" to="/Malinda_Zoo/contact">
                 Contact Us
               </Link>
             </li>

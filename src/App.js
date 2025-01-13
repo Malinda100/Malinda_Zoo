@@ -16,10 +16,10 @@ function App() {
         <main style={{ flex: "1" }}>
           <Routes>
             <Route path="/Malinda_Zoo/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/animals" element={<Animals />} />
-            <Route path="/tickets" element={<Tickets />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/Malinda_Zoo/about" element={<About />} />
+            <Route path="/Malinda_Zoo/animals" element={<Animals />} />
+            <Route path="/Malinda_Zoo/tickets" element={<Tickets />} />
+            <Route path="/Malinda_Zoo/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
