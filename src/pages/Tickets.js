@@ -47,7 +47,7 @@ const Tickets = () => {
       <div className="col-md-4 mb-4">
         <div className="card featuredImages2">
           <img
-            src={process.env.PUBLIC_URL + "/images/animalFeed.jpg"}
+            src={process.env.PUBLIC_URL + "/Images/animalFeed.jpg"}
             className="card-img-top"
             alt="Animal Feeding"
           />
@@ -67,7 +67,7 @@ const Tickets = () => {
       <div className="col-md-4 mb-4">
         <div className="card featuredImages2">
           <img
-            src={process.env.PUBLIC_URL + "/images/wildLifeTalk.jpg"}
+            src={process.env.PUBLIC_URL + "/Images/wildLifeTalk.jpg"}
             className="card-img-top"
             alt="Wildlife Talk"
           />
@@ -87,7 +87,7 @@ const Tickets = () => {
       <div className="col-md-4 mb-4">
         <div className="card featuredImages2">
           <img
-            src={process.env.PUBLIC_URL + "/images/nightSafari.jpg"}
+            src={process.env.PUBLIC_URL + "/Images/nightSafari.jpg"}
             className="card-img-top"
             alt="Night Safari"
           />
