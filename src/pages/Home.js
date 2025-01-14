@@ -147,7 +147,7 @@ const Home = () => {
         <p>
           Open daily from 9:00 AM to 6:00 PM. Get your tickets online and skip the line!
         </p>
-        <a href="/tickets" className="btn btn-primary">Buy Tickets</a>
+        <a href="/Malinda_Zoo/tickets" className="btn btn-primary">Buy Tickets</a>
       </div>
     </div>
   );
